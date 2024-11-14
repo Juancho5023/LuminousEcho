@@ -172,3 +172,55 @@ p {
         margin-bottom: 20px;
     }
 }
+/* Bitácora de Avances */
+.progress-log {
+    background-color: #101a33;
+    color: #d9e7ef;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 40px 20px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+}
+
+.progress-log h2 {
+    color: #ffd700;
+    font-size: 2.2rem;
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+.week-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.week-navigation button {
+    background: #112240;
+    color: #d9e7ef;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.week-navigation button:hover {
+    background: #00f0ff;
+    color: #101a33;
+}
+
+.log-content {
+    background-color: #0b192e;
+    padding: 30px;
+    border-radius: 15px;
+    color: #ffd700;
+    font-size: 1.1rem;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+    min-height: 150px;
+    line-height: 1.5;
+}
